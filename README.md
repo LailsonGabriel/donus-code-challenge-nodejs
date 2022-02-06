@@ -13,13 +13,14 @@
 ![Exemplo](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/env-example.png)
 
 Você também pode utilizar o Docker:
-com os comandos:
+
 <p>Para finalizar as tarefas do MySQL em sua máquina:</p>
 <strong>sudo systemctl stop mysql</strong>
 
-
 <strong>docker container run --name donus-code-mysql -e MYSQL_ROOT_PASSWORD=donus-code -d -p 3306:3306 mysql:5</strong>
+
 <p>E o seu .env deve ficar assim:</p>
+
 ![Exemplo](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/Screenshot%20from%202022-02-06%2014-52-09.png)
 
 
