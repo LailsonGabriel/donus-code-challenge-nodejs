@@ -42,18 +42,19 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
 <p>a estrutura do body deve ser semelhante a essa</p>
   
   
-```{
-   fullName: "Nome Exemplo",
-   cpf: "45698045777"
-}```
+```json
+{
+  fullName: "Nome Exemplo",
+  cpf: "45698045777"
+}
+```
   
   
-  <details close>
   <br>
   ![PostUser](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/picturesReadme/post-user.png)
   
   
- ## Oque foi usado Oque foi usado na realização do projeto??
+    <h1>Oque foi usado Oque foi usado na realização do projeto??</h1>
     <ul>
       <li>NodeJS</li>
       <li>Sequelize</li>
