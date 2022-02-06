@@ -41,9 +41,11 @@ Para rodar os testes execute o seguinte comando em seu terminal: <strong>npm tes
   <h3>(Method: POST /user) Criar um usuário</h3>
   <p>a estrutura do body deve ser semelhante a essa</p>
   `{
-    "fullName": "Nome Exemplo",
-    "cpf": "45698045777"
+    fullName: "Nome Exemplo",
+    cpf: "45698045777"
   }`
+  <br>
+  ![PostUser](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/picturesReadme/post-user.png)
   
   
   <h1>Oque foi usado na realização do projeto??<h1>
