@@ -37,6 +37,15 @@ Para rodar os testes execute o seguinte comando em seu terminal: <strong>npm tes
   <p>Esse comando vai criar a tabela em seu MySQL, vai popular ela através do Sequelize e iniciar o Nodemon</p>
   
   
+  <h1>Rotas da Aplicação</h1>
+  <h3>(Method: POST /user) Criar um usuário</h3>
+  <p>a estrutura do body deve ser semelhante a essa</p>
+  `{
+    "fullName": "Nome Exemplo",
+    "cpf": "45698045777"
+  }`
+  
+  
   <h1>Oque foi usado na realização do projeto??<h1>
     <ul>
       <li>NodeJS</li>
