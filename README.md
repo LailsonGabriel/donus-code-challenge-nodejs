@@ -7,5 +7,5 @@
   <li>Crie um arquivo .env **Na pasta raíz**</strong></li>
   **Atenção preencha os campo MYSQL_USER, MYSQL_PASS, MYSQL_LOCAL de acordo com o seu user do MYSQL
   <h3>Exemplo:</h3>
-  ![teste](env-example.png)
+  ![teste](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/env-example.png)
 </ol>
