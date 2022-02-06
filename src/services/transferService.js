@@ -1,6 +1,5 @@
 const { User } = require('../models');
 const formatCPF = require('../utils/cpfFormater');
-const userService = require('./userService');
 
 const transfer = async (cpf, body) => {
   const cpfReceiver = formatCPF(cpf);

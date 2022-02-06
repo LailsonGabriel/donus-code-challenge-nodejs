@@ -5,7 +5,7 @@ module.exports = {
     queryInterface.bulkInsert('Users', [
       {
         fullName: 'Lailson Gabriel Vieira Cavalcante',
-        cpf: '678.363.634-634',
+        cpf: '678.363.634-63',
       },
       {
         fullName: 'Yuri Garrido',

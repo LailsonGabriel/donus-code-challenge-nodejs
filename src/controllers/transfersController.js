@@ -4,7 +4,7 @@ const rescue = require('express-rescue');
 const transferService = require('../services/transferService');
 const middlewares = require('../middlewares/');
 
-router.post(
+router.put(
   '/:cpf',
   middlewares.numberIsNotNegative,
   middlewares.validateCPF,

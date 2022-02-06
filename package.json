@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "test": "npm run drop && npm run prestart && mocha ./src/tests/**/*$NAME*.test.js --exit && npm run drop",
+    "drop": "npx sequelize-cli db:drop",
+    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize db:seed:all",
+    "start": "npm run prestart && nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,11 @@
     "nodemon": "^2.0.15",
     "sequelize": "^6.15.0",
     "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.0",
+    "sinon": "^13.0.1"
   }
 }

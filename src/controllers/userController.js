@@ -23,7 +23,7 @@ router.post(
   }),
 );
 
-router.post(
+router.put(
   '/:cpf',
   middlewares.numberIsNotNegative,
   middlewares.validateCPF,

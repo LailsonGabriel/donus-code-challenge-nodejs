@@ -8,7 +8,7 @@ const createAccount = async (body) => {
 
   const verifyIfExist = await User.findOne({ where: { cpf } });
 
-  if (verifyIfExist.dataValues) {
+  if (verifyIfExist) {
     return {
       error: {
         code: 500,
