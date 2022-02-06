@@ -48,7 +48,7 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
 }```
   
   
-  
+  <details close>
   <br>
   ![PostUser](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/picturesReadme/post-user.png)
   
