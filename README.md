@@ -38,7 +38,7 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
   
   
 <h1>Rotas da Aplicação</h1>
-<h3>(Method: POST /user) Criar um usuário</h3>
+<h3>Method: POST /user | Criar um usuário</h3>
 <p>a estrutura do body deve ser semelhante a essa</p>
   
   
@@ -48,7 +48,14 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
   cpf: "45698045777"
 }
 ```
-  
+
+<h3>Method: PUT /user/:cpf | Deposita dinheiro na conta do usuário passado na rota através do CPF</h3>
+<p>a estrutura do body deve ser semelhante a essa</p>
+  ```json
+{
+  amount: 1500
+}
+```
   
 <h1>Oque foi usado Oque foi usado na realização do projeto??</h1>
   <ul>
