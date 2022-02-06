@@ -18,6 +18,7 @@ Você também pode utilizar o Docker:
 <strong>sudo systemctl stop mysql</strong>
 <p>E depois:</p>
 <strong>docker container run --name donus-code-mysql -e MYSQL_ROOT_PASSWORD=donus-code -d -p 3306:3306 mysql:5</strong>
+<p>Para rodar o Mysql em um container Docker</p>
 
 <p>E o seu .env deve ficar assim:</p>
 
