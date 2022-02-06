@@ -11,3 +11,8 @@
 
 
 ![Tabela Vendas-Produtos](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/env-example.png)
+
+
+
+# Rodar os testes
+Para rodar os testes execute o seguinte comando em seu terminal <strong>npm test<strong> || <strong>Obs: para rodar os teste é muito importante que já tenha configurado o arquivo .env<strong>
