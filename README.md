@@ -14,5 +14,10 @@
 
 
 
-# Rodar os testes
-Para rodar os testes execute o seguinte comando em seu terminal <strong>npm test<strong> **<p>Obs: para rodar os teste é muito importante que já tenha configurado o arquivo .env<p>**
+# Rodar os testes de integração
+Para rodar os testes execute o seguinte comando em seu terminal: <strong>npm test<strong> <p>Obs: para rodar os teste é muito importante que já tenha configurado o arquivo .env<p>
+  
+  
+  
+  <h1>Rodar aplicação</h1>
+  Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm test<strong>
