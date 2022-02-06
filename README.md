@@ -48,18 +48,17 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
   cpf: "45698045777"
 }
 ```
-<details close>
   
   
-    <h1>Oque foi usado Oque foi usado na realização do projeto??</h1>
-    <ul>
-      <li>NodeJS</li>
-      <li>Sequelize</li>
-      <li>Express</li>
-      <li>Express-rescue</li>
-      <li>Mysql2 (para conexão com banco de dados)</li>
-      <li>Nodemon</li>
-    </ul>
+<h1>Oque foi usado Oque foi usado na realização do projeto??</h1>
+  <ul>
+    <li>NodeJS</li>
+    <li>Sequelize</li>
+    <li>Express</li>
+    <li>Express-rescue</li>
+    <li>Mysql2 (para conexão com banco de dados)</li>
+    <li>Nodemon</li>
+  </ul>
     <h4>Testes:</h4>
     <ul>
       <li>Mocha</li>
