@@ -72,6 +72,19 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
 }
 ```
   
+  
+<h3>Method: PUT /transfer/:cpf | Faz transferência do dinheiro para outro usuário</h3>
+  <p><strong>O CPF passado na rota deve ser o CPF para quem você deseja envia o dinheiro</strong></p>
+  <p>No body, deve ser passado o cpf da conta de quem vai enviar o dinheiro, juntamente do CPF do mesmo</p>
+  
+
+```json
+{
+  cpf: "45698045777"
+  amount: 1500
+}
+```
+  
 
   
 <h1>Oque foi usado Oque foi usado na realização do projeto??</h1>
