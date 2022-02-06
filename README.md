@@ -37,6 +37,10 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
 <p>Esse comando vai criar a tabela em seu MySQL, vai popular ela através do Sequelize e iniciar o Nodemon</p>
   
   
+<h1>Dropar o banco de dados</h1>
+Para dropar o banco execute o seguinte comando em seu terminal: <strong>npm run drop<strong>
+  
+  
 <h1>Rotas da Aplicação</h1>
 <h3>Method: POST /user | Criar um usuário</h3>
 <p>a estrutura do body deve ser semelhante a essa</p>
