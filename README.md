@@ -7,4 +7,6 @@
   <li>Crie um arquivo .env **Na pasta raíz**</strong></li>
   **Atenção preencha os campo MYSQL_USER, MYSQL_PASS, MYSQL_LOCAL de acordo com o seu user do MYSQL
 </ol>
-![teste](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/env-example.png)
+
+
+![Tabela Vendas-Produtos](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/env-example.png)
