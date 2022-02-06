@@ -59,6 +59,21 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
 }
 ```
   
+<h3>Method: GET /user/:cpf | Verifica a conta do usuário através do CPF</h3>
+<p>a resposta deve ser semelhante a essa</p>
+  
+
+```json
+{
+  id: 1,
+  fullName: "Nome Exemplo",
+  cpf: "45698045777"
+  bank: 1500
+}
+```
+  
+
+  
 <h1>Oque foi usado Oque foi usado na realização do projeto??</h1>
   <ul>
     <li>NodeJS</li>
