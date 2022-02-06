@@ -32,18 +32,23 @@ Para rodar os testes execute o seguinte comando em seu terminal: <strong>npm tes
   
   
   
-  <h1>Rodar aplicação</h1>
-  Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm start<strong>
-  <p>Esse comando vai criar a tabela em seu MySQL, vai popular ela através do Sequelize e iniciar o Nodemon</p>
+<h1>Rodar aplicação</h1>
+Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm start<strong>
+<p>Esse comando vai criar a tabela em seu MySQL, vai popular ela através do Sequelize e iniciar o Nodemon</p>
   
   
-  <h1>Rotas da Aplicação</h1>
-  <h3>(Method: POST /user) Criar um usuário</h3>
-  <p>a estrutura do body deve ser semelhante a essa</p>
-  `{
-    fullName: "Nome Exemplo",
-    cpf: "45698045777"
-  }`
+<h1>Rotas da Aplicação</h1>
+<h3>(Method: POST /user) Criar um usuário</h3>
+<p>a estrutura do body deve ser semelhante a essa</p>
+  
+  
+```{
+   fullName: "Nome Exemplo",
+   cpf: "45698045777"
+}```
+  
+  
+  
   <br>
   ![PostUser](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/picturesReadme/post-user.png)
   
