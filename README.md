@@ -27,14 +27,14 @@ Você também pode utilizar o Docker:
 
 
 # Rodar os testes de integração
-Para rodar os testes execute o seguinte comando em seu terminal: <strong>npm test<strong> <p>Obs: para rodar os teste é muito importante que já tenha configurado o arquivo .env<p>
+Para rodar os testes execute o seguinte comando em seu terminal: <strong>npm test<strong> <p>Obs: para rodar os testes é muito importante que já tenha configurado o arquivo .env<p>
 <p>Esse comando vai criar a tabela em seu MySQL e vai popular ela através do Sequelize</p>
   
   
   
   <h1>Rodar aplicação</h1>
   Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm start<strong>
-  <p>Esse comando vai criar a tabela em seu MySQL e vai popular ela através do Sequelize</p>
+  <p>Esse comando vai criar a tabela em seu MySQL, vai popular ela através do Sequelize e iniciar o Nodemon</p>
   
   
   <h1>Oque foi usado na realização do projeto??<h1>
