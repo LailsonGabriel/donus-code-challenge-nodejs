@@ -53,7 +53,7 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
   ![PostUser](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/picturesReadme/post-user.png)
   
   
-  <h1>Oque foi usado na realização do projeto??<h1>
+ ## Oque foi usado Oque foi usado na realização do projeto??
     <ul>
       <li>NodeJS</li>
       <li>Sequelize</li>
