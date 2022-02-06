@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run drop && npm run prestart && mocha ./src/tests/**/*$NAME*.test.js --exit && npm run drop",
+    "test": "npm run drop && npm run prestart && mocha ./src/tests/integration/**/*.test.js --exit && npm run drop",
     "drop": "npx sequelize-cli db:drop",
     "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize db:seed:all",
     "start": "npm run prestart && nodemon index.js"
