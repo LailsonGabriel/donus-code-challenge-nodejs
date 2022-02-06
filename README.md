@@ -15,4 +15,4 @@
 
 
 # Rodar os testes
-Para rodar os testes execute o seguinte comando em seu terminal <strong>npm test<strong> || <strong>Obs: para rodar os teste é muito importante que já tenha configurado o arquivo .env<strong>
+Para rodar os testes execute o seguinte comando em seu terminal <strong>npm test<strong> **<span>Obs: para rodar os teste é muito importante que já tenha configurado o arquivo .env<span>**
