@@ -12,6 +12,7 @@ module.exports = {
       fullName: {
         allowNull: false,
         type: Sequelize.STRING,
+        field: 'fullname',
       },
       cpf: {
         allowNull: false,
@@ -19,7 +20,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       bank: {
-        allowNull: true,
+        allowNull: false,
         defaultValue: 0,
         type: Sequelize.INTEGER,
       },
