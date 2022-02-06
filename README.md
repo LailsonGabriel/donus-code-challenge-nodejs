@@ -51,7 +51,9 @@ Para rodar a aplicação execute o seguinte comando em seu terminal: <strong>npm
 
 <h3>Method: PUT /user/:cpf | Deposita dinheiro na conta do usuário passado na rota através do CPF</h3>
 <p>a estrutura do body deve ser semelhante a essa</p>
-  ```json
+  
+
+```json
 {
   amount: 1500
 }
