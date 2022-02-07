@@ -52,7 +52,7 @@ Para dropar o banco execute o seguinte comando em seu terminal: <strong>npm run 
   cpf: "45698045777"
 }
 ```
-**As rotas com :cpf, devem ser somente numeros**
+  <h3>**As rotas com :cpf, devem ser somente numeros**</h3>
 <h3>Method: PUT /user/:cpf | Deposita dinheiro na conta do usuário passado na rota através do CPF</h3>
 <p>a estrutura do body deve ser semelhante a essa</p>
   
