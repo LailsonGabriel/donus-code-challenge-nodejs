@@ -1,6 +1,6 @@
 # donus-code-challenge
 
-Seu **objetivo** é **criar uma API REST** com algumas **funções essenciais relacionadas** ao **gerenciamento de contas bancárias** em **uma** das linguagem: **Java, Kotlin, Python, Node.js, .NET**
+**API REST** com algumas **funções essenciais relacionadas** ao **gerenciamento de contas bancárias**
 
 - Para abrir uma conta é necessário apenas o nome completo e CPF da pessoa, mas só é permitido uma conta por pessoa;
 - Com essa conta é possível realizar transferências para outras contas e depositar;
