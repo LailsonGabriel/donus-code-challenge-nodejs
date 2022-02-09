@@ -31,7 +31,7 @@ Você também pode utilizar o Docker:
 
 <p>E o seu .env deve ficar assim:</p>
 
-![Exemplo](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/Screenshot%20from%202022-02-06%2014-52-09.png)
+![Exemplo](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/Screenshot%20from%202022-02-06%2014-52-09.png)
 
 
 
