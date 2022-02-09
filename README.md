@@ -1,5 +1,14 @@
 # donus-code-challenge
 
+Seu **objetivo** é **criar uma API REST** com algumas **funções essenciais relacionadas** ao **gerenciamento de contas bancárias** em **uma** das linguagem: **Java, Kotlin, Python, Node.js, .NET**
+
+- Para abrir uma conta é necessário apenas o nome completo e CPF da pessoa, mas só é permitido uma conta por pessoa;
+- Com essa conta é possível realizar transferências para outras contas e depositar;
+- Não aceitamos valores negativos nas contas;
+- Por questão de segurança cada transação de depósito não pode ser maior do que R$2.000;
+- As transferências entre contas são gratuitas e ilimitadas;
+
+
 # Primeiros passos
 <ol>
   <li>Clone essse repositório <strong>git clone git@github.com:LailsonGabriel/donus-code-challenge.git</strong></li>
@@ -10,7 +19,7 @@
 </ol>
 
 
-![Exemplo](https://github.com/LailsonGabriel/donus-code-challenge/blob/main/env-example.png)
+![Exemplo](https://github.com/LailsonGabriel/donus-code-challenge-nodejs/blob/main/Screenshot%20from%202022-02-06%2014-27-31.png)
 
 Você também pode utilizar o Docker:
 
